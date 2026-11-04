@@ -1,0 +1,54 @@
+{
+  "snapshot_date": "2026-11-04",
+  "selected_build": "psalms",
+  "source_bytes_modified": false,
+  "runtime_tested": false,
+  "entries": [
+    {
+      "name": "psalms",
+      "file": "psalms.lua",
+      "source": "https://gist.githubusercontent.com/CongoOhioDog/3acc5096c770f73f977e2f9f0417c99e/raw/500ded773d33ff22ffdb14148e0bcec29fa5bb8e/lol",
+      "status": 200,
+      "bytes": 190141,
+      "lines": 5966,
+      "sha256": "6d86cd64ddebeae5619a902d1711c4c2879b4592a78c9cb252549a8bcdb35573"
+    },
+    {
+      "name": "psalms-bootstrap",
+      "file": "dependencies/psalms-bootstrap.lua",
+      "source": "https://gist.githubusercontent.com/CongoOhioDog/a176e78a0053eb3c1a48e58dece4ebb0/raw/b37a50cf92c1c427512ca44e6341315124521522/gistfile1.txt",
+      "referenced_at": "psalms.lua:21",
+      "status": 200,
+      "bytes": 1370,
+      "lines": 60,
+      "sha256": "3a4679669725b4c1f02173446f406f9e705e22e65f86db5c668b6fe4c265a6d1"
+    },
+    {
+      "name": "ui-fallback",
+      "file": "dependencies/ui-fallback.lua",
+      "source": "https://gist.githubusercontent.com/CongoOhioDog/35476decfcca390e13120470a8907d26/raw/ec47708b7c28850ea497567972fee63c91f5a893/lol",
+      "referenced_at": "psalms.lua:41",
+      "status": 200,
+      "bytes": 144450,
+      "lines": 4423,
+      "sha256": "2cf61d6a80f5da7050ead2c99ab0dcd797d9427b9889536b46f603568cc6cd4c"
+    },
+    {
+      "name": "cursor",
+      "file": "dependencies/cursor.lua",
+      "source": "https://gist.githubusercontent.com/CongoOhioDog/53ec2f8bdde91bda1d9a17fe5d11e23f/raw/1e5dde366ce1f20ea6621ed230837eb69f441dbc/gistfile1.txt",
+      "referenced_at": "psalms.lua:1261",
+      "status": 200,
+      "bytes": 3965,
+      "lines": 117,
+      "sha256": "72a09dda78726595d969eb6728f24f28205b843e246221b42c873f1506a3b83f"
+    },
+    {
+      "name": "ui-main",
+      "source": "https://pastebin.com/raw/LixdnWjB",
+      "referenced_at": "psalms.lua:39",
+      "status": "unavailable",
+      "error": "HTTP 403 Forbidden"
+    }
+  ]
+}
